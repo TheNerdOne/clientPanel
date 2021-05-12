@@ -1,0 +1,31 @@
+.p-searchBar:focus {
+  box-shadow: none !important;
+  /* border-bottom: 1px solid #80ffc0 !important; */
+  /* border-radius: 0; */
+  color: #fff !important;
+}
+/* .p-searchBar {
+  background-color: rgb(0, 0, 0, 0.1) !important;
+} */
+.p-SearchButton:focus {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: #80ffc0 !important;
+}
+.p-SearchButton {
+  color: beige !important;
+}
+.p-formInline {
+  box-shadow: 0px 0px 10px 0px #80ffc0;
+  border-radius: 9px;
+}
+.spinner-eclipse {
+  width: 100px;
+  /* height: 100%; */
+  display: block;
+  margin: 150px auto;
+}
+
+input:-internal-autofill-selected {
+  background-color: #343a40 !important;
+}
